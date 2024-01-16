@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    margin: 5vmax 0vmax;
+    font-size: 4vmax;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    font-size: 3vmax;
+}
+#weight, #height, #calculate {
+    width: 15vmax;
+    height: 3vmax;
+    border: 0.3vmax solid black;
+    font-size: 2.3vmax;
+    margin: 1vmax 0vmax;
+}
+#calculate {
+    margin-left: 26%; 
+}
+.result {
+    text-align: center;
+    font-size: 3vmax;
+    margin: 2.5vmax 0vmax;
+}
+.text {
+    text-align: center;
+}
+h2 {
+    margin-bottom: 1vmax;
+    font-size: 3.5vmax;
+}
+h3 {
+    margin-top: 0.3vmax;
+    font-size: 2.3vmax;
+}
